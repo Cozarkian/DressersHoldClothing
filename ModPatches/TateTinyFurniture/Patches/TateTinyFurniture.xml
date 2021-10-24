@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Table_IlluminatedEndTable" or defName="Table_IlluminatedDresser"]</xpath>
+				<xpath>Defs/ThingDef[defName="TatesTinyFurnitureMod_Dresser"]</xpath>
 				<value>
 					<thingClass>Building_Storage</thingClass>
 					<building>
@@ -35,19 +35,7 @@
 						<li>ITab_Storage</li>
 					</inspectorTabs>	
 				</value>		
-			</li>		
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Table_IlluminatedDresser"]/statBases/Beauty</xpath>
-				<value>
-					<Beauty>3</Beauty>
-				</value>
-			</li>	
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Table_IlluminatedEndTable"]/statBases/Beauty</xpath>
-				<value>
-					<Beauty>2</Beauty>
-				</value>
-			</li>	
+			</li>				
 			<li Class="PatchOperationFindMod">
 				<mods>
 					<li>LWM's Deep Storage</li>
@@ -55,31 +43,18 @@
 				<match Class="PatchOperationSequence">
 					<operations>
 						<li Class="PatchOperationAdd">
-							<xpath>Defs/ThingDef[defName="Table_IlluminatedEndTable" or defName="Table_IlluminatedDresser"]/inspectorTabs</xpath>
+							<xpath>Defs/ThingDef[defName="TatesTinyFurnitureMod_Dresser"]/inspectorTabs</xpath>
 							<value>
 								<li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
 							</value>
 						</li>		
 						<li Class="PatchOperationAdd">
-							<xpath>Defs/ThingDef[defName="Table_IlluminatedDresser"]/comps</xpath>
+							<xpath>Defs/ThingDef[defName="TatesTinyFurnitureMod_Dresser"]/comps</xpath>
 							<value>	
 								<li Class="LWM.DeepStorage.Properties">
-									<maxNumberStacks>3</maxNumberStacks>
+									<maxNumberStacks>4</maxNumberStacks>
 									<minNumberStacks>0</minNumberStacks>
-									<maxTotalMass>2</maxTotalMass>
-									<minTimeStoringTakes>90</minTimeStoringTakes>
-									<additionalTimeEachStack>15</additionalTimeEachStack>
-									<showContents>false</showContents>
-								</li>
-							</value>
-						</li>
-						<li Class="PatchOperationAdd">
-							<xpath>Defs/ThingDef[defName="Table_IlluminatedEndTable"]/comps</xpath>
-							<value>	
-								<li Class="LWM.DeepStorage.Properties">
-									<maxNumberStacks>2</maxNumberStacks>
-									<minNumberStacks>0</minNumberStacks>
-									<maxTotalMass>1.8</maxTotalMass>
+									<maxTotalMass>4</maxTotalMass>
 									<minTimeStoringTakes>90</minTimeStoringTakes>
 									<additionalTimeEachStack>15</additionalTimeEachStack>
 									<showContents>false</showContents>
