@@ -1,0 +1,5 @@
+[10/24/2021]
+	Update to RW v1.3
+	Added support for Gloomy Furniture
+	Added support for More Furniture (cont)
+	

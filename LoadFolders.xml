@@ -2,11 +2,23 @@
 
 <loadFolders>
 	<v1.2>
-		<li IfModActive="LWM.DeepStorage">DeepStorage</li>
-		<li IfModActive="VanillaExpanded.VFECore">VFECore</li>
-		<li IfModActive="VanillaExpanded.VFESpacer">VFESpacer</li>
+		<li IfModActive="LWM.DeepStorage">ModPatches/DeepStorage</li>
+		<li IfModActive="Solaris.FurnitureBase">ModPatches/GloomyFurniture</li>
+		<li IfModActive="Mlie.MoreFurniture">ModPatches/MoreFurniture</li>
+		<li IfModActive="VanillaExpanded.VFECore">ModPatches/VFECore</li>
+		<li IfModActive="VanillaExpanded.VFESpacer">ModPatches/VFESpacer</li>
+		<li IfModActive="alleZSoyez.TTFM.TatesTinyFurnitureMod">ModPatches/TateTinyFurniture</li>
 		<li>Common</li>
 	</v1.2>
+	<v1.3>
+		<li IfModActive="LWM.DeepStorage">ModPatches/DeepStorage</li>
+		<li IfModActive="Solaris.FurnitureBase">ModPatches/GloomyFurniture</li>
+		<li IfModActive="Mlie.MoreFurniture">ModPatches/MoreFurniture</li>
+		<li IfModActive="VanillaExpanded.VFECore">ModPatches/VFECore</li>
+		<li IfModActive="VanillaExpanded.VFESpacer">ModPatches/VFESpacer</li>
+		<li IfModActive="alleZSoyez.TTFM.TatesTinyFurnitureMod">ModPatches/TateTinyFurniture</li>
+		<li>Common</li>
+	</v1.3>
 </loadFolders>
 
 
